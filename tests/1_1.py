@@ -1,0 +1,4 @@
+from challenges.set1.challenge1.chall1 import hex_to_base64
+
+str = "49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d"
+print hex_to_base64(str)
