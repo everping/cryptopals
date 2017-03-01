@@ -34,14 +34,14 @@ frequencies = {
 
 
 def score(str):
-    score = 0
+    result = 0
     for c in str:
         if c in frequencies:
-            score += frequencies[c]
-    return score
+            result += frequencies[c]
+    return result
 
 
-def break_xor(cipher):
+def break_single_byte_xor(cipher):
     decoded_cipher = cipher.decode('hex')
     plain_text = ""
     max_score = 0
