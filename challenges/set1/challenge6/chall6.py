@@ -28,11 +28,11 @@ def find_key_size(min_key_size, max_key_size, cipher):
 
 def find_key(cipher, key_size):
     """
-    1. Break the cipher into block of key_size length
+    1. Break the cipher into blocks of key_size length
     2. Transpose blocks
     3. For each block, we xor it with printable characters
-    and then scoring the output, get the character that has max score.
-    4. Join characters that we found, it's key
+    and then score the output, get the character that has max score.
+    4. Form the key by joining the characters that we have found
     """
     key = ""
 
