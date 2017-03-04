@@ -1,4 +1,4 @@
-from challenges.set1.challenge4.chall4 import detect_single_character_xor
+from challenges.set1.challenge4 import detect_single_character_xor
 
 f = open('../challenges/set1/challenge4/4.txt', 'r')
 xored_list = f.readlines()

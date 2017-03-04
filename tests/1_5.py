@@ -1,4 +1,4 @@
-from challenges.set1.challenge5.chall5 import repeating_key_xor
+from challenges.set1.challenge5 import repeating_key_xor
 
 if __name__ == '__main__':
     expected = '0b3637272a2b2e63622c2e69692a23693a2a3c6324202d623d6334' \
@@ -8,3 +8,4 @@ I go crazy when I hear a cymbal"""
 
     key = 'ICE'
     print repeating_key_xor(plain_text, key).strip() == expected.strip()
+

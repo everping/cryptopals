@@ -1,4 +1,4 @@
-from challenges.set1.challenge6.chall6 import hamming_distance, find_key_size, \
+from challenges.set1.challenge6 import hamming_distance, find_key_size, \
     find_key, decrypt
 
 
